@@ -140,11 +140,10 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    counter-reset: toc;
     font-size: 15px;
   }
 
-  nav.toc li { counter-increment: toc; margin: 0 0 8px; }
+  nav.toc li { margin: 0 0 8px; }
 
   nav.toc a {
     text-decoration: none;
@@ -152,24 +151,14 @@
     display: block;
   }
 
-  nav.toc a::before {
-    content: counter(toc) ". ";
-    color: var(--muted);
-  }
-
   nav.toc a:hover { color: var(--primary); }
 
-  main { min-width: 0; counter-reset: sec; }
+  main { min-width: 0; }
 
   section {
-    counter-increment: sec;
     padding: 0 0 12px;
     margin: 0 0 36px;
     scroll-margin-top: 24px;
-  }
-
-  h2.section-title::before {
-    content: counter(sec) ". ";
   }
 
   h2.section-title {
@@ -301,28 +290,28 @@
     <nav class="toc" aria-label="Table of contents">
       <h2>Contents</h2>
       <ol>
-        <li><a href="#summary">Summary</a></li>
-        <li><a href="#at-a-glance">Data at a glance</a></li>
-        <li><a href="#local-data">Data stored on the device</a></li>
-        <li><a href="#updates">App updates</a></li>
-        <li><a href="#purchases">Purchases and RevenueCat</a></li>
-        <li><a href="#advertising">Advertising and Google AdMob</a></li>
-        <li><a href="#sharing">Sharing and sale of data</a></li>
-        <li><a href="#store-review">Google Play review and sharing</a></li>
-        <li><a href="#email">Email contact</a></li>
-        <li><a href="#children">Children</a></li>
-        <li><a href="#retention">Retention and deletion</a></li>
-        <li><a href="#security">Security</a></li>
-        <li><a href="#rights">User rights</a></li>
-        <li><a href="#changes">Changes to this policy</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#summary">1. Summary</a></li>
+        <li><a href="#at-a-glance">2. Data at a glance</a></li>
+        <li><a href="#local-data">3. Data stored on the device</a></li>
+        <li><a href="#updates">4. App updates</a></li>
+        <li><a href="#purchases">5. Purchases and RevenueCat</a></li>
+        <li><a href="#advertising">6. Advertising and Google AdMob</a></li>
+        <li><a href="#sharing">7. Sharing and sale of data</a></li>
+        <li><a href="#store-review">8. Google Play review and sharing</a></li>
+        <li><a href="#email">9. Email contact</a></li>
+        <li><a href="#children">10. Children</a></li>
+        <li><a href="#retention">11. Retention and deletion</a></li>
+        <li><a href="#security">12. Security</a></li>
+        <li><a href="#rights">13. User rights</a></li>
+        <li><a href="#changes">14. Changes to this policy</a></li>
+        <li><a href="#contact">15. Contact</a></li>
       </ol>
     </nav>
 
     <main>
 
       <section id="summary">
-        <h2 class="section-title">Summary</h2>
+        <h2 class="section-title">1. Summary</h2>
         <div class="callout">
           <p>
             Find the Spy is a local party game. No account is required. The free version may show
@@ -343,7 +332,7 @@
       </section>
 
       <section id="at-a-glance">
-        <h2 class="section-title">Data at a glance</h2>
+        <h2 class="section-title">2. Data at a glance</h2>
         <p>
           The table below summarizes every category of data the app handles, why it is handled and
           who processes it. Each row is described in full in the sections that follow.
@@ -393,7 +382,7 @@
       </section>
 
       <section id="local-data">
-        <h2 class="section-title">Data stored on the device</h2>
+        <h2 class="section-title">3. Data stored on the device</h2>
         <p>The app may store the following data locally:</p>
         <ul class="list">
           <li>player names entered by users;</li>
@@ -420,7 +409,7 @@
       </section>
 
       <section id="updates">
-        <h2 class="section-title">App updates</h2>
+        <h2 class="section-title">4. App updates</h2>
         <p>
           Release builds may connect to Expo Application Services to check for and download
           compatible updates. Network requests necessarily expose ordinary technical information to
@@ -435,7 +424,7 @@
       </section>
 
       <section id="purchases">
-        <h2 class="section-title">Purchases and RevenueCat</h2>
+        <h2 class="section-title">5. Purchases and RevenueCat</h2>
         <p>When real in-app purchases are configured:</p>
         <ul class="list">
           <li>Google Play processes the payment;</li>
@@ -465,7 +454,7 @@
       </section>
 
       <section id="advertising">
-        <h2 class="section-title">Advertising and Google AdMob</h2>
+        <h2 class="section-title">6. Advertising and Google AdMob</h2>
         <p>
           The free version may request an interstitial advertisement from Google AdMob after a
           completed game round. Ads are not requested during role reveal, discussion, voting, or
@@ -509,7 +498,7 @@
       </section>
 
       <section id="sharing">
-        <h2 class="section-title">Sharing and sale of data</h2>
+        <h2 class="section-title">7. Sharing and sale of data</h2>
         <p>
           The developer does not sell personal data and does not use a separate behavioral analytics
           SDK.
@@ -528,7 +517,7 @@
       </section>
 
       <section id="store-review">
-        <h2 class="section-title">Google Play review and sharing</h2>
+        <h2 class="section-title">8. Google Play review and sharing</h2>
         <p>
           After several completed rounds, the app may ask Google Play to display its own in-app
           review dialog. Google Play displays and processes the review. The app stores only a local
@@ -546,7 +535,7 @@
       </section>
 
       <section id="email">
-        <h2 class="section-title">Email contact</h2>
+        <h2 class="section-title">9. Email contact</h2>
         <p>
           When a user chooses to contact the developer, the app opens the user&rsquo;s email
           application. The email address, message, and any information voluntarily included by the
@@ -556,7 +545,7 @@
       </section>
 
       <section id="children">
-        <h2 class="section-title">Children</h2>
+        <h2 class="section-title">10. Children</h2>
         <p>
           The game does not require an account and does not specifically request a child&rsquo;s
           personal information. Parents and guardians should supervise younger users, use nicknames
@@ -570,7 +559,7 @@
       </section>
 
       <section id="retention">
-        <h2 class="section-title">Retention and deletion</h2>
+        <h2 class="section-title">11. Retention and deletion</h2>
         <p>
           Local game data remains on the device until the user performs a full reset or uninstalls
           the app.
@@ -586,7 +575,7 @@
       </section>
 
       <section id="security">
-        <h2 class="section-title">Security</h2>
+        <h2 class="section-title">12. Security</h2>
         <p>
           The app minimizes transmitted data and uses the standard security mechanisms provided by
           the device platform and service providers. Google Mobile Ads, RevenueCat, and Expo use
@@ -596,7 +585,7 @@
       </section>
 
       <section id="rights">
-        <h2 class="section-title">User rights</h2>
+        <h2 class="section-title">13. User rights</h2>
         <p>
           Depending on their location, users may have rights to request access, correction, deletion,
           restriction, or objection concerning personal data processed for the app. Requests can be
@@ -607,7 +596,7 @@
       </section>
 
       <section id="changes">
-        <h2 class="section-title">Changes to this policy</h2>
+        <h2 class="section-title">14. Changes to this policy</h2>
         <p>
           This policy may be updated when app features, service providers, or legal requirements
           change. The effective date at the top of the policy and inside the app will be updated when
@@ -616,7 +605,7 @@
       </section>
 
       <section id="contact">
-        <h2 class="section-title">Contact</h2>
+        <h2 class="section-title">15. Contact</h2>
         <ul class="list">
           <li>Narek Vardapetyan</li>
           <li>Email: <a href="mailto:vardapetyannarek0@gmail.com">vardapetyannarek0@gmail.com</a></li>
