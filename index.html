@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy — Find the Spy</title>
+<meta name="description" content="Privacy Policy for the Find the Spy party game (com.narek.whosoutoftheloop): what the app stores on your device, what is sent to Google AdMob, Expo, Google Play and RevenueCat, and how to delete your data." />
+<meta name="color-scheme" content="light dark" />
+<meta name="theme-color" content="#FFF9EF" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#12111A" media="(prefers-color-scheme: dark)" />
+<meta name="robots" content="index, follow" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%95%B5%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+<style>
+  :root {
+    --paper: #FFF9EF;
+    --card: #FFFFFF;
+    --ink: #171524;
+    --muted: #6E697D;
+    --primary: #6C4DFF;
+    --primary-dark: #4C32CE;
+    --border: #E9E1D7;
+    --accent: #FFD45A;
+    --shadow: 0 18px 40px rgba(23, 21, 36, 0.08);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #12111A;
+      --card: #1B1926;
+      --ink: #F3F0FF;
+      --muted: #A7A1B8;
+      --primary: #A392FF;
+      --primary-dark: #C0B4FF;
+      --border: #2C2939;
+      --accent: #FFD45A;
+      --shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  a { color: var(--primary-dark); }
+  a:hover { color: var(--primary); }
+
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px 64px;
+  }
+
+  header.masthead {
+    padding: 56px 0 32px;
+    border-bottom: 2px solid var(--border);
+    margin-bottom: 40px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #171524;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin: 18px 0 8px;
+    font-size: clamp(32px, 6vw, 46px);
+    line-height: 1.12;
+    letter-spacing: -1.2px;
+    font-weight: 900;
+  }
+
+  .lede {
+    margin: 0 0 20px;
+    max-width: 62ch;
+    font-size: clamp(17px, 2.4vw, 19px);
+    color: var(--muted);
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+    color: var(--muted);
+  }
+
+  .meta strong {
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 250px minmax(0, 1fr);
+    gap: 48px;
+    align-items: start;
+  }
+
+  nav.toc {
+    position: sticky;
+    top: 24px;
+    padding: 22px;
+    border: 2px solid var(--border);
+    border-radius: 18px;
+    background: var(--card);
+    box-shadow: var(--shadow);
+  }
+
+  nav.toc h2 {
+    margin: 0 0 12px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: var(--primary);
+  }
+
+  nav.toc ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: toc;
+    font-size: 15px;
+  }
+
+  nav.toc li { counter-increment: toc; margin: 0 0 8px; }
+
+  nav.toc a {
+    text-decoration: none;
+    color: var(--ink);
+    display: block;
+  }
+
+  nav.toc a::before {
+    content: counter(toc) ". ";
+    color: var(--muted);
+  }
+
+  nav.toc a:hover { color: var(--primary); }
+
+  main { min-width: 0; }
+
+  section {
+    padding: 0 0 12px;
+    margin: 0 0 36px;
+    scroll-margin-top: 24px;
+  }
+
+  h2.section-title {
+    margin: 0 0 14px;
+    font-size: clamp(22px, 3.4vw, 27px);
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+    font-weight: 800;
+  }
+
+  h3 {
+    margin: 26px 0 10px;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  p { margin: 0 0 16px; max-width: 72ch; }
+
+  ul.list {
+    margin: 0 0 16px;
+    padding-left: 22px;
+    max-width: 72ch;
+  }
+
+  ul.list li { margin: 0 0 8px; }
+
+  .callout {
+    padding: 22px 24px;
+    border: 2px solid var(--border);
+    border-left: 6px solid var(--primary);
+    border-radius: 16px;
+    background: var(--card);
+    box-shadow: var(--shadow);
+    margin: 0 0 36px;
+  }
+
+  .callout p:last-child { margin-bottom: 0; }
+
+  .table-scroll {
+    overflow-x: auto;
+    border: 2px solid var(--border);
+    border-radius: 16px;
+    background: var(--card);
+    margin: 0 0 16px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table {
+    width: 100%;
+    min-width: 640px;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+
+  th, td {
+    padding: 14px 16px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid var(--border);
+  }
+
+  th {
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  tbody tr:last-child td { border-bottom: none; }
+
+  .note {
+    font-size: 15px;
+    color: var(--muted);
+  }
+
+  footer.colophon {
+    margin-top: 48px;
+    padding-top: 28px;
+    border-top: 2px solid var(--border);
+    font-size: 15px;
+    color: var(--muted);
+  }
+
+  footer.colophon p { max-width: 72ch; }
+
+  .top-link {
+    display: inline-block;
+    margin-top: 8px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+    nav.toc { position: static; }
+  }
+
+  @media print {
+    body { background: #FFFFFF; color: #000000; font-size: 12pt; }
+    nav.toc, .top-link { display: none; }
+    .layout { grid-template-columns: minmax(0, 1fr); }
+    .callout, .table-scroll { box-shadow: none; }
+    a { color: #000000; text-decoration: underline; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <span class="badge">Find the Spy</span>
+    <h1>Privacy Policy</h1>
+    <p class="lede">
+      This policy explains what information the Find the Spy app stores, what it transmits,
+      which service providers are involved, and the choices available to you.
+    </p>
+    <ul class="meta">
+      <li><strong>Effective date:</strong> August 4, 2026</li>
+      <li><strong>Application:</strong> Find the Spy</li>
+      <li><strong>Package ID:</strong> com.narek.whosoutoftheloop</li>
+      <li><strong>Developer:</strong> Narek Vardapetyan</li>
+      <li><strong>Contact:</strong> <a href="mailto:vardapetyannarek0@gmail.com">vardapetyannarek0@gmail.com</a></li>
+    </ul>
+  </header>
+
+  <div class="layout">
+
+    <nav class="toc" aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#at-a-glance">Data at a glance</a></li>
+        <li><a href="#local-data">Data stored on the device</a></li>
+        <li><a href="#updates">App updates</a></li>
+        <li><a href="#purchases">Purchases and RevenueCat</a></li>
+        <li><a href="#advertising">Advertising and Google AdMob</a></li>
+        <li><a href="#sharing">Sharing and sale of data</a></li>
+        <li><a href="#email">Email contact</a></li>
+        <li><a href="#children">Children</a></li>
+        <li><a href="#retention">Retention and deletion</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#rights">User rights</a></li>
+        <li><a href="#changes">Changes to this policy</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
+
+    <main>
+
+      <section id="summary">
+        <h2 class="section-title">1. Summary</h2>
+        <div class="callout">
+          <p>
+            Find the Spy is a local party game. No account is required. The free version may show
+            advertising supplied by Google AdMob, while users with active PRO access do not receive
+            ad requests. The app does not use a separate analytics SDK. Game data is stored on the
+            user&rsquo;s device.
+          </p>
+          <p>
+            The release version may connect to Expo Application Services to check for app updates.
+            When real purchases are configured, Google Play processes payments and RevenueCat
+            verifies purchase status and PRO access.
+          </p>
+        </div>
+        <p class="note">
+          The same policy is available inside the app in Armenian, Russian and English, on the
+          <em>Settings &rarr; Privacy Policy</em> screen. This page is the English reference version.
+        </p>
+      </section>
+
+      <section id="at-a-glance">
+        <h2 class="section-title">2. Data at a glance</h2>
+        <p>
+          The table below summarizes every category of data the app handles, why it is handled and
+          who processes it. Each row is described in full in the sections that follow.
+        </p>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Data</th>
+                <th scope="col">Where it goes</th>
+                <th scope="col">Purpose</th>
+                <th scope="col">Processor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Player names, scores, settings, custom categories and words, an unfinished game</td>
+                <td>Stays on the device</td>
+                <td>Provide game features, restore settings, resume play</td>
+                <td>None &mdash; local storage only</td>
+              </tr>
+              <tr>
+                <td>IP address, app version, platform and device technical information, request logs</td>
+                <td>Sent when the app checks for an update</td>
+                <td>Deliver compatible app updates</td>
+                <td>Expo Application Services</td>
+              </tr>
+              <tr>
+                <td>Anonymous App User ID, device type, operating system, purchase history, purchase token, entitlement status</td>
+                <td>Sent only when real purchases are configured</td>
+                <td>Process, validate and restore a lifetime PRO purchase</td>
+                <td>Google Play, RevenueCat</td>
+              </tr>
+              <tr>
+                <td>IP address (approximate location), advertising, app-set or device identifiers, app and ad interactions, diagnostics</td>
+                <td>Sent when the free version requests an ad</td>
+                <td>Ad delivery, ad measurement and analytics, fraud prevention</td>
+                <td>Google AdMob, subject to your consent choice</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">
+          Player names, scores, secret words and custom categories are never added to an update
+          request, a purchase request or an ad request.
+        </p>
+      </section>
+
+      <section id="local-data">
+        <h2 class="section-title">3. Data stored on the device</h2>
+        <p>The app may store the following data locally:</p>
+        <ul class="list">
+          <li>player names entered by users;</li>
+          <li>scores;</li>
+          <li>language, visual theme, timer, difficulty, haptics, and other game settings;</li>
+          <li>custom category names, words, and word pairs;</li>
+          <li>identifiers of recently used words or prompts to reduce repetition;</li>
+          <li>an unfinished game and its current state;</li>
+          <li>a simulated PRO status in development or Preview builds.</li>
+        </ul>
+        <p>
+          This local game data is used only to provide game features, restore settings, and resume
+          play. It is not sent to a server operated by the developer. Users should avoid entering
+          sensitive personal information in player names or custom categories.
+        </p>
+        <p>
+          Local data can be deleted with the full reset option in the app&rsquo;s Settings.
+          Uninstalling the app also removes app-controlled local data, subject to the device
+          platform&rsquo;s backup and restoration behavior.
+        </p>
+      </section>
+
+      <section id="updates">
+        <h2 class="section-title">4. App updates</h2>
+        <p>
+          Release builds may connect to Expo Application Services to check for and download
+          compatible updates. Network requests necessarily expose ordinary technical information to
+          the service provider, which may include an IP address, app version, platform or device
+          technical information, and request logs. Player names, custom categories, and other local
+          game content are not included in the app&rsquo;s update request.
+        </p>
+        <p>
+          Expo&rsquo;s privacy information is available at
+          <a href="https://expo.dev/privacy" rel="noopener noreferrer" target="_blank">expo.dev/privacy</a>.
+        </p>
+      </section>
+
+      <section id="purchases">
+        <h2 class="section-title">5. Purchases and RevenueCat</h2>
+        <p>When real in-app purchases are configured:</p>
+        <ul class="list">
+          <li>Google Play processes the payment;</li>
+          <li>
+            RevenueCat retrieves the available product, validates the purchase, restores purchases,
+            and determines whether the <code>premium</code> entitlement is active;
+          </li>
+          <li>
+            RevenueCat may process an automatically generated anonymous App User ID, device type,
+            operating system, purchase history, Google purchase token, product and transaction
+            information, and entitlement status;
+          </li>
+          <li>the developer does not receive the user&rsquo;s full payment-card details.</li>
+        </ul>
+        <p>
+          Purchase history is used to provide PRO access, restore a lifetime purchase, prevent
+          entitlement errors, and understand purchase performance. The current app does not send a
+          custom account ID, name, email address, advertising ID, player names, or custom game
+          content to RevenueCat.
+        </p>
+        <p>
+          RevenueCat&rsquo;s privacy information is available at
+          <a href="https://www.revenuecat.com/privacy" rel="noopener noreferrer" target="_blank">revenuecat.com/privacy</a>.
+          Google explains its data practices at
+          <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">policies.google.com/privacy</a>.
+        </p>
+      </section>
+
+      <section id="advertising">
+        <h2 class="section-title">6. Advertising and Google AdMob</h2>
+        <p>
+          The free version may request an interstitial advertisement from Google AdMob after a
+          completed game round. Ads are not requested during role reveal, discussion, voting, or
+          other active gameplay. Ads are also not requested while PRO access is active. If an ad
+          cannot be loaded, the game continues without blocking the user.
+        </p>
+        <p>
+          Before initializing advertising, the app uses Google&rsquo;s User Messaging Platform to
+          check applicable consent requirements and show a consent choice where required. If the
+          resulting consent state does not permit an ad request, advertising remains disabled for
+          that session. Where Google requires ongoing privacy options, the app provides an
+          &ldquo;Ad privacy choices&rdquo; item in Settings so the user can review or change that
+          choice.
+        </p>
+        <p>
+          The Google Mobile Ads SDK may automatically collect and share an IP address, which may be
+          used to estimate approximate location; user interactions with the app or an ad;
+          diagnostic and performance information; and advertising, app-set, device, or
+          account-related identifiers. Google uses this information for advertising, ad measurement
+          and analytics, and fraud prevention. Data is encrypted in transit. Depending on the
+          user&rsquo;s region, device settings, and consent choices, ads may be personalized or
+          non-personalized.
+        </p>
+        <p>
+          The app does not add player names, scores, secret words, custom categories, or other local
+          game content to an AdMob request. Android users can reset or delete their advertising ID
+          in device settings. Google&rsquo;s advertising privacy information and controls are
+          available at
+          <a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer" target="_blank">policies.google.com/technologies/ads</a>
+          and
+          <a href="https://myadcenter.google.com/" rel="noopener noreferrer" target="_blank">myadcenter.google.com</a>.
+        </p>
+      </section>
+
+      <section id="sharing">
+        <h2 class="section-title">7. Sharing and sale of data</h2>
+        <p>
+          The developer does not sell personal data and does not use a separate behavioral analytics
+          SDK.
+        </p>
+        <p>
+          Technical, advertising, and purchase-related data may be disclosed only to the relevant
+          service providers&mdash;Google AdMob, Expo, Google Play, and RevenueCat&mdash;when needed
+          to provide ads, measurement and fraud prevention, updates, purchases, entitlement
+          validation, or restoration. These providers process data under their own terms and privacy
+          policies.
+        </p>
+        <p>
+          Information may also be disclosed when required by law, to protect users, or to protect
+          the app and developer from fraud or abuse.
+        </p>
+      </section>
+
+      <section id="email">
+        <h2 class="section-title">8. Email contact</h2>
+        <p>
+          When a user chooses to contact the developer, the app opens the user&rsquo;s email
+          application. The email address, message, and any information voluntarily included by the
+          user are processed by the user&rsquo;s email provider and the developer&rsquo;s email
+          provider. Users should not send sensitive information that is unnecessary for support.
+        </p>
+      </section>
+
+      <section id="children">
+        <h2 class="section-title">9. Children</h2>
+        <p>
+          The game does not require an account and does not specifically request a child&rsquo;s
+          personal information. Parents and guardians should supervise younger users, use nicknames
+          instead of full names, and avoid entering personal or sensitive information in custom
+          categories.
+        </p>
+        <p>
+          If a parent or guardian believes that a child sent personal information to the developer by
+          email, they may contact the developer to request its deletion.
+        </p>
+      </section>
+
+      <section id="retention">
+        <h2 class="section-title">10. Retention and deletion</h2>
+        <p>
+          Local game data remains on the device until the user performs a full reset or uninstalls
+          the app.
+        </p>
+        <p>
+          Purchase records may be retained by Google Play and RevenueCat according to their legal
+          obligations and retention policies. A user may contact
+          <a href="mailto:vardapetyannarek0@gmail.com">vardapetyannarek0@gmail.com</a> to request
+          deletion of information controlled through RevenueCat. The developer may need an anonymous
+          RevenueCat App User ID or purchase information sufficient to locate the record. Store
+          transaction records that Google must retain may not be controlled by the developer.
+        </p>
+      </section>
+
+      <section id="security">
+        <h2 class="section-title">11. Security</h2>
+        <p>
+          The app minimizes transmitted data and uses the standard security mechanisms provided by
+          the device platform and service providers. Google Mobile Ads, RevenueCat, and Expo use
+          encrypted network connections for their services. No method of storage or transmission is
+          completely secure, so absolute security cannot be guaranteed.
+        </p>
+      </section>
+
+      <section id="rights">
+        <h2 class="section-title">12. User rights</h2>
+        <p>
+          Depending on their location, users may have rights to request access, correction, deletion,
+          restriction, or objection concerning personal data processed for the app. Requests can be
+          sent to
+          <a href="mailto:vardapetyannarek0@gmail.com">vardapetyannarek0@gmail.com</a>.
+          The developer may request limited information needed to verify and fulfill the request.
+        </p>
+      </section>
+
+      <section id="changes">
+        <h2 class="section-title">13. Changes to this policy</h2>
+        <p>
+          This policy may be updated when app features, service providers, or legal requirements
+          change. The effective date at the top of the policy and inside the app will be updated when
+          material changes are made.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2 class="section-title">14. Contact</h2>
+        <ul class="list">
+          <li>Narek Vardapetyan</li>
+          <li>Email: <a href="mailto:vardapetyannarek0@gmail.com">vardapetyannarek0@gmail.com</a></li>
+          <li>Application: Find the Spy (<code>com.narek.whosoutoftheloop</code>)</li>
+        </ul>
+      </section>
+
+      <footer class="colophon">
+        <p>
+          Find the Spy &mdash; Privacy Policy. Effective date: August 4, 2026.
+          This page is the publicly hosted version of the policy shown inside the app.
+        </p>
+        <a class="top-link" href="#top">&uarr; Back to top</a>
+      </footer>
+
+    </main>
+  </div>
+</div>
+</body>
+</html>
