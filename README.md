@@ -1,7 +1,7 @@
 # Privacy Policy — Find the Spy
 
 This repository hosts the public Privacy Policy for the **Find the Spy** mobile
-game (`com.narek.whosoutoftheloop`).
+game (`com.armdevstack.findthespy`).
 
 - Published page: https://narekv-games.github.io/privacy-policy/
 - Effective date: August 26, 2026
